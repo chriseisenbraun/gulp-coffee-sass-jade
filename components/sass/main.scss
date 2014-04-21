@@ -1,0 +1,12 @@
+//Test Basic Sass compiling
+
+$mainColor: #eeefda;
+
+ body {
+  background-color: $mainColor;
+  font-family: helvetica;
+}
+p {
+  background-color: lighten(lightblue, 10);
+  line-height: 2;
+}
