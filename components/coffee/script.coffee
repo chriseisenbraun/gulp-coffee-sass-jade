@@ -1,2 +1,2 @@
 $ ->
-  $('h1').append('Mass Effect')
+  $('h1').append('Mass Effect!!')

@@ -1,11 +1,11 @@
 /* line 5, main.scss */
 body {
-  background-color: #eeefda;
+  background-color: magenta;
   font-family: helvetica;
 }
 
 /* line 9, main.scss */
 p {
-  background-color: #d4ebf2;
+  background-color: white;
   line-height: 2;
 }
