@@ -1,11 +1,7 @@
-/* line 5, main.scss */
 body {
-  background-color: magenta;
-  font-family: helvetica;
-}
+  background-color: red;
+  font-family: helvetica; }
 
-/* line 9, main.scss */
 p {
   background-color: white;
-  line-height: 2;
-}
+  line-height: 2; }
