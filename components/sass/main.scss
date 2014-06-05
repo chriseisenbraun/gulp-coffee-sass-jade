@@ -1,18 +1,22 @@
-//Test Basic Sass compiling
+// Test Basic Sass compiling
 
-$mainColor: #eeefda;
+$mainColor: pink;
+$choc: chocolate;
 
- body {
+body {
   background-color: $mainColor;
   font-family: helvetica;
-  color: teal;
-  font-weight: 200;
+  color: beige;
+  font-weight: 100;
 }
- h1 {
-    font-weight: 200;
- }
+
+h1 {
+  font-weight: 100;
+  text-shadow: 5px 5px 0 chocolate;
+}
 
 p {
-  background-color: lighten(#444, 30);
+  background-color: $choc;
   line-height: 2;
+  border-radius: 10px 10px 0 0;
 }

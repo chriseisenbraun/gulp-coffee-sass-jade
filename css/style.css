@@ -1,12 +1,14 @@
 body {
-  background-color: #eeefda;
+  background-color: pink;
   font-family: helvetica;
-  color: #f00;
-  font-weight: 200; }
+  color: beige;
+  font-weight: 100; }
 
 h1 {
-  font-weight: 200; }
+  font-weight: 100;
+  text-shadow: 5px 5px 0 chocolate; }
 
 p {
-  background-color: #919191;
-  line-height: 2; }
+  background-color: chocolate;
+  line-height: 2;
+  border-radius: 10px 10px 0 0; }
