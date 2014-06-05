@@ -1,7 +1,12 @@
 body {
-  background-color: red;
-  font-family: helvetica; }
+  background-color: teal;
+  font-family: helvetica;
+  color: #222;
+  font-weight: 200; }
+
+h1 {
+  font-weight: 200; }
 
 p {
-  background-color: white;
+  background-color: #919191;
   line-height: 2; }

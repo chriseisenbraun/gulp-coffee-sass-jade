@@ -1,12 +1,18 @@
 //Test Basic Sass compiling
 
-$mainColor: red;
+$mainColor: teal;
 
  body {
   background-color: $mainColor;
   font-family: helvetica;
+  color: #222;
+  font-weight: 200;
 }
+ h1 {
+    font-weight: 200;
+ }
+
 p {
-  background-color: lighten(beige, 10);
+  background-color: lighten(#444, 30);
   line-height: 2;
 }
