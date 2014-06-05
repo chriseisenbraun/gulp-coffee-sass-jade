@@ -3,7 +3,9 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-sass'),
     coffee = require('gulp-coffee'),
-    // Jade
+    //bourbon = require('node-bourbon'),
+    neat = require('node-neat').includePaths,
+     // Jade
     jade = require('gulp-jade'),
     concat = require('gulp-concat'),
     livereload = require('gulp-livereload'),
@@ -58,6 +60,7 @@ gulp.task('sass', function() {
     gulp.src(sassSources)
         .pipe(sass({
             style: 'expanded',
+            includePaths: ['node-neat'].concat(neat),
             lineNumbers: true
         }))
         .pipe(concat('style.css'))

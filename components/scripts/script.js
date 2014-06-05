@@ -1,3 +1,3 @@
 $(function() {
-  return $('h1').append('Mass Effect!!');
+  return $('h1').append(' Mass Effect');
 });

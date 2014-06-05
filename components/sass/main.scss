@@ -1,7 +1,17 @@
-// Test Basic Sass compiling
+@import "bourbon";
+@import "neat";
 
 $mainColor: pink;
 $choc: chocolate;
+
+
+* {
+  @include box-sizing(border-box);
+}
+
+.wrap {
+@include outer-container;
+}
 
 body {
   background-color: $mainColor;
@@ -19,4 +29,11 @@ p {
   background-color: $choc;
   line-height: 2;
   border-radius: 10px 10px 0 0;
+  padding: 0 20px;
+  //@include box-shadow(0 0 5px 3px hsla(0, 0%, 0%, 0.65));
+  @include span-columns(6);
+}
+
+.button {
+  @include button;
 }
